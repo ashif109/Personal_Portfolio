@@ -28,7 +28,7 @@ const Footer = () => {
         }
       ]
     return (
-        <div className='right-0 bg-gray-950 py-6 sm:py-8 px-4 sm:px-6 md:px-10 text-center w-full'>
+        <div className='relative z-10 right-0 bg-gray-950 py-6 sm:py-8 px-4 sm:px-6 md:px-10 text-center w-full'>
             <div className="text-xl sm:text-2xl bg-linear-to-r from-red-500 to-orange-500 bg-clip-text text-transparent font-bold tracking-wide hover:text-red-600 mb-4 sm:mb-6">
                 ASHIF.Dev</div>
 

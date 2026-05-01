@@ -61,37 +61,39 @@ const Navbar = () => {
 
                 {/* Mobile Navigation */}
                 {isMenuOpen && (
-                    <nav className="absolute top-full left-0 w-full bg-black/95 md:hidden border-t border-white/10">
+                    <nav className="relative z-10 top-full left-0 w-full bg-black/95 md:hidden border-t border-white/10">
                         <ul className="text-white flex flex-col items-start gap-2 text-sm font-semibold px-4 py-4">
                             <li>
-                                <Link to="/" className="hover:text-amber-400 transition block py-2" onClick={() => setIsMenuOpen(false)}>
+                                 <a href="/" className="hover:text-amber-400 transition block py-2" onClick={() => setIsMenuOpen(false)}>
                                     Home
-                                </Link>
+                                </a> 
                             </li>
                             <li>
-                                <Link to="#skills" className="hover:text-amber-400 transition block py-2" onClick={() => setIsMenuOpen(false)}>
+                               <a href="#skills"  className="hover:text-amber-400 transition block py-2" onClick={() => setIsMenuOpen(false)}>
                                     Skills
-                                </Link>
+                                </a>
                             </li>
                             <li>
-                                <Link to="#projects" className="hover:text-amber-400 transition block py-2" onClick={() => setIsMenuOpen(false)}>
+                              <a href="#projects"  className="hover:text-amber-400 transition block py-2" onClick={() => setIsMenuOpen(false)}>
                                     Projects
-                                </Link>
+                                </a>
                             </li>
                             <li>
-                                <Link to="#about" className="hover:text-amber-400 transition block py-2" onClick={() => setIsMenuOpen(false)}>
+                               <a href="#about" className="hover:text-amber-400 transition block py-2" onClick={() => setIsMenuOpen(false)}>
                                     About Me
-                                </Link>
+                                </a> 
                             </li>
                             <li>
-                                <Link to="#contact" className="hover:text-amber-400 transition block py-2" onClick={() => setIsMenuOpen(false)}>
+                            <a href="#contact" className="hover:text-amber-400 transition block py-2" onClick={() => setIsMenuOpen(false)}>
                                     Contact me
-                                </Link>
+                               </a> 
                             </li>
                             <li className="w-full">
-                                <button className="w-full rounded-full bg-amber-500 px-5 py-2 text-sm font-bold text-slate-900 transition hover:bg-amber-400 mt-2">
-                                    Hire me
-                                </button>
+                                  <a className='relative z-10'  href="https://mail.google.com/mail/?view=cm&fs=1&to=ashifansari04704@gmail.com&su=Hiring%20Inquiry&body=Hello%20Ashif,%20I%20want%20to%20work%20with%20you." target="_blank">
+      <button className="justify-center w-fit rounded-full bg-amber-500 px-8 py-3 text-sm font-semibold text-slate-900 hover:bg-amber-400">
+        Hire me
+      </button>
+      </a>
                             </li>
                         </ul>
                     </nav>

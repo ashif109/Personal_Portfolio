@@ -34,7 +34,7 @@ const About = () => {
           <span className='text-amber-400 text-4xl font-bold'>"</span>
         </p>
       
-<a href="https://mail.google.com/mail/?view=cm&fs=1&to=ashifansari04704@gmail.com&su=Hiring%20Inquiry&body=Hello%20Ashif,%20I%20want%20to%20work%20with%20you." target="_blank">
+<a className='relative z-10' href="https://mail.google.com/mail/?view=cm&fs=1&to=ashifansari04704@gmail.com&su=Hiring%20Inquiry&body=Hello%20Ashif,%20I%20want%20to%20work%20with%20you." target="_blank">
       <button className="justify-center w-fit rounded-full bg-amber-500 px-8 py-3 text-sm font-semibold text-slate-900 hover:bg-amber-400">
         Hire me
       </button>

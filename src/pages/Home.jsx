@@ -80,17 +80,19 @@ const Home = () => {
 
             <div className="flex flex-wrap gap-4">
 
-              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ashifansari04704@gmail.com&su=Hiring%20Inquiry&body=Hello%20Ashif,%20I%20want%20to%20work%20with%20you." target="_blank">
-                <button className="rounded-full bg-amber-500 px-6 py-3 text-sm font-semibold text-slate-900 transition hover:bg-amber-400">Hire Me</button>
-              </a>
-              <a href="https://docs.google.com/document/d/1SWp0JxNDVKpVG-X4pvWCfTpJDnrfLBxd/edit?usp=drive_link&ouid=118297924681860671333&rtpof=true&sd=true" target='_blank'>
-                <button className="rounded-full border-2 border-gray-500 bg-transparent px-6 py-3 text-sm font-semibold text-gray-300 transition hover:bg-gray-700">
+             <a className='relative z-10'  href="https://mail.google.com/mail/?view=cm&fs=1&to=ashifansari04704@gmail.com&su=Hiring%20Inquiry&body=Hello%20Ashif,%20I%20want%20to%20work%20with%20you." target="_blank">
+      <button className="justify-center w-fit rounded-full bg-amber-500 px-8 py-3 text-sm font-semibold text-slate-900 hover:bg-amber-400">
+        Hire me
+      </button>
+      </a>
+              <a className="relative z-10 rounded-full border-2 relative z-10 border-gray-500 bg-transparent px-6 py-3 text-sm font-semibold text-gray-300 transition hover:bg-gray-700" href="https://docs.google.com/document/d/1SWp0JxNDVKpVG-X4pvWCfTpJDnrfLBxd/edit?usp=drive_link&ouid=118297924681860671333&rtpof=true&sd=true" target='_blank'>
+             
                   Download Resume
-                </button>
+               
               </a>
             </div>
 
-            <div className="grid w-full gap-4 rounded-3xl bg-gray-950 p-6 shadow-lg sm:grid-cols-3">
+            <div className="relative z-10 grid w-full gap-4 rounded-3xl bg-gray-950 p-6 shadow-lg sm:grid-cols-3">
               <div className="flex flex-col gap-2 rounded-3xl bg-slate-900/60 p-5">
                 <span className="text-3xl font-semibold text-transparent bg-clip-text bg-linear-to-r from-red-500 to-orange-500">
                   1+

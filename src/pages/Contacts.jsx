@@ -43,9 +43,9 @@ const Contacts = () => {
           Feel free to reach out for project collaborations, questions, feedback, or even just to connect and say hello!
         </p>
         <div className='mx-auto max-w-4xl rounded-[2rem]  p-8 shadow-2xl shadow-black/20 backdrop-blur-xl'>
-          <form className='grid gap-6 md:grid-cols-2'>
+          <form className='relative z-10 grid gap-6 md:grid-cols-2'>
             <input
-              className='w-full rounded-xl border border-gray-700 bg-gray-900/90 px-5 py-4 text-gray-100 placeholder-gray-500 transition focus:border-cyan-400 focus:outline-none focus:ring-2 focus:ring-cyan-500/20'
+              className='relative z-10 w-full rounded-xl border border-gray-700 bg-gray-900/90 px-5 py-4 text-gray-100 placeholder-gray-500 transition focus:border-cyan-400 focus:outline-none focus:ring-2 focus:ring-cyan-500/20'
               type='text'
               placeholder='Name'
               onChange={(evt)=>{
@@ -53,7 +53,7 @@ const Contacts = () => {
               }}
             />
             <input
-              className='w-full rounded-xl border border-gray-700 bg-gray-900/90 px-5 py-4 text-gray-100 placeholder-gray-500 transition focus:border-cyan-400 focus:outline-none focus:ring-2 focus:ring-cyan-500/20'
+              className='relative z-10 w-full rounded-xl border border-gray-700 bg-gray-900/90 px-5 py-4 text-gray-100 placeholder-gray-500 transition focus:border-cyan-400 focus:outline-none focus:ring-2 focus:ring-cyan-500/20'
               type='text'
               placeholder='Email'
               onChange={(evt)=>{
@@ -61,7 +61,7 @@ const Contacts = () => {
               }}
             />
             <input
-              className='w-full rounded-xl border border-gray-700 bg-gray-900/90 px-5 py-4 text-gray-100 placeholder-gray-500 transition focus:border-cyan-400 focus:outline-none focus:ring-2 focus:ring-cyan-500/20'
+              className='relative z-10 w-full rounded-xl border border-gray-700 bg-gray-900/90 px-5 py-4 text-gray-100 placeholder-gray-500 transition focus:border-cyan-400 focus:outline-none focus:ring-2 focus:ring-cyan-500/20'
               type='text'
               onChange={(evt)=>{
                 setmn(evt.target.value)
@@ -69,7 +69,7 @@ const Contacts = () => {
               placeholder='Phone Number'
             />
             <input
-              className='w-full rounded-xl border border-gray-700 bg-gray-900/90 px-5 py-4 text-gray-100 placeholder-gray-500 transition focus:border-cyan-400 focus:outline-none focus:ring-2 focus:ring-cyan-500/20'
+              className='relative z-10 w-full rounded-xl border border-gray-700 bg-gray-900/90 px-5 py-4 text-gray-100 placeholder-gray-500 transition focus:border-cyan-400 focus:outline-none focus:ring-2 focus:ring-cyan-500/20'
               type='text'
               placeholder='Timeline'
               onChange={(evt)=>{
@@ -77,7 +77,7 @@ const Contacts = () => {
               }}
             />
             <select
-  className="w-full h-13 rounded-xl border border-gray-700 bg-gray-900/90 px-5 py-2 text-gray-100 focus:border-cyan-400 focus:outline-none focus:ring-2 focus:ring-cyan-500/20"
+  className="relative z-10 w-full h-13 rounded-xl border border-gray-700 bg-gray-900/90 px-5 py-2 text-gray-100 focus:border-cyan-400 focus:outline-none focus:ring-2 focus:ring-cyan-500/20"
   defaultValue=""
   onChange={(evt)=>{
     setsoi(evt.target.value)
@@ -92,7 +92,7 @@ const Contacts = () => {
   <option value="uidev">UI/UX Designer</option>
 </select>
             <textarea
-              className='w-full rounded-xl border border-gray-700 bg-gray-900/90 px-5 py-4 text-gray-100 placeholder-gray-500 transition focus:border-cyan-400 focus:outline-none focus:ring-2 focus:ring-cyan-500/20'
+              className='relative z-10 w-full rounded-xl border border-gray-700 bg-gray-900/90 px-5 py-4 text-gray-100 placeholder-gray-500 transition focus:border-cyan-400 focus:outline-none focus:ring-2 focus:ring-cyan-500/20'
               rows='5'
               placeholder='Project Details'
               onChange={(evt)=>{setdetails(evt.target.value)}}
@@ -100,7 +100,7 @@ const Contacts = () => {
             <div className='md:col-span-2 flex justify-center'>
               <button
                 type='button'
-                className='rounded-full border-2 border-gray-500 bg-transparent px-6 py-3 text-sm font-semibold text-gray-300 transition hover:bg-gray-700'
+                className='relative z-10 rounded-full border-2 border-gray-500 bg-transparent px-6 py-3 text-sm font-semibold text-gray-300 transition hover:bg-gray-700'
                 onClick={show}
               >
                 Send
