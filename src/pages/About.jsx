@@ -20,7 +20,7 @@ const About = () => {
       <img
         src={imgee}
         alt="profile"
-        className="block max-w-[420px] w-full"
+        className="block max-w-105 w-full"
       />
     </div>
 

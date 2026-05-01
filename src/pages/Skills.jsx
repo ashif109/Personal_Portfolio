@@ -2,7 +2,6 @@ import React from 'react'
 import frnt from "../assets/icons/cloud-data-developer-svgrepo-com.svg"
 import dsa from "../assets/icons/problem-solving-skill-svgrepo-com.svg"
 import tech from "../assets/icons/technology-pc-computer-microchip-processor-chipset-svgrepo-com.svg"
-import { useEffect } from 'react'
 const Skills = () => {
   
     return (
